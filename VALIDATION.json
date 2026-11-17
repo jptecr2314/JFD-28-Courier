@@ -1,0 +1,66 @@
+{
+  "aircraft": "JFD-28 Courier",
+  "quality": "Balanced",
+  "version": "0.44.0",
+  "nativePassed": true,
+  "bastionAvailable": false,
+  "qualitySelectorExposed": false,
+  "parts": 122,
+  "structuralContacts": 305,
+  "files": [
+    {
+      "name": "JFD-28 Courier_0.44.0.nobp",
+      "sha256": "4656B5FA69189E9C1B3515D480E6DEA9845B1DC8746A82B9694DFC91B2AE5530"
+    },
+    {
+      "name": "SuperheavyGroundPhysics.dll",
+      "sha256": "16B6151EB7B073AE1D838F73C7ABDBF10162D6CA443DA0513B6AB806BAABDB7F"
+    },
+    {
+      "name": "CurrentAirframeDamage.dll",
+      "sha256": "1DA488990A6ED8711B753A44DD97AA5E5BEC10B120D54363489E82C74331C89F"
+    },
+    {
+      "name": "SuperheavyAirframeData.dll",
+      "sha256": "7C725E0057D11EE2FBDDF5E940663AAF2DC7AEB8A147A923346A094955ECC1A4"
+    }
+  ],
+  "checks": [
+    {
+      "aircraft": "JFD-28 Courier",
+      "quality": "Balanced",
+      "qualitySelectorExposed": false,
+      "bastionRegistered": false,
+      "selectedPaintsRemainBalanced": true
+    },
+    {
+      "parts": 122,
+      "contacts": 305,
+      "animatedBranches": 79,
+      "gearMeshes": 121,
+      "gearVisualsHaveSectionOwners": true,
+      "carryThroughSections": 4,
+      "authoredStowDeployPosesDiffer": true
+    },
+    {
+      "rampReleasedAfterBothSupportsFail": true,
+      "rampSeparation": 6.32467556,
+      "rampRepairedWithSupports": true
+    },
+    {
+      "nativeGearBarrierContacts": 1,
+      "debrisVelocity": "(0.00, 0.00, 0.00)",
+      "selectedLoadoutPreserved": true,
+      "modularTurretsFollowSectionOwners": true
+    },
+    {
+      "gearAssembliesReleased": 13,
+      "physicalGearDebris": true,
+      "visualWheelsFollowNativeDebris": true,
+      "coreHp": 100.0,
+      "coordinatorPeakMs": 3.5593,
+      "gearOriginPairs": 30
+    }
+  ],
+  "scope": "Native single-player release delta and support-loss/repair/contact checks. No claim of eliminated impact spikes or multiplayer certification."
+}
